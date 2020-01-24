@@ -1,15 +1,26 @@
 h1 {
     color: white;
+    margin-left: 500px;
+    /*padding-left: -300px;*/
 }
-
 /* * {
     border: solid;
 } */
 
+.header *{
+    border: solid;
+    
+}
+
 .header{
-    background-color: cadetblue;
+    background-color:#9BF4DF;
     display: flex;
     justify-content: space-between;
+}
+
+.heading2 *{
+    border: solid;
+    
 }
 
 .site-description{
@@ -31,4 +42,40 @@ h1 {
 
 p,h2{
     text-align: center;
+}
+body{
+    background-color: #6700FF;
+}
+
+a:link{
+    color:white;
+    
+}
+
+a:visited{
+    color:white;
+}
+
+.menu{
+    margin-right:30px;
+
+}
+
+.menu a {
+    margin-left:15px;
+}
+.item{
+    position: relative;
+    
+}
+
+.item p{
+    position: absolute;
+    top: 50% ;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity:1;
 }
